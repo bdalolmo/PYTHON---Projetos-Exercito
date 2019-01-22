@@ -1,0 +1,20 @@
+print sum(range(1,100))
+4950
+from qgis.core import import QgsGeometry
+  File "<input>", line 1
+    from qgis.core import import QgsGeometry
+triangle = QgsGeometry.fromWkt("POLYGON((11,44,71,11))")
+print triagle.area()
+
+
+baixar plugin -> ir para internet r procurar no plugins/nome..
+baixar e jogar na pasta plugins - endereço /home/breno/.qgis2/python/plugins
+descompactar do downloands e jogar na pasta
+ir no qgis e marcar no plugin para habilitá-lo
+
+
+Linha de Comandos Python
+Use o iface para acessar à interface da API QGIS ou Escreva help (iface) para mais informação
+layer = iface.addVectorLayer("/home/breno/Geospatial Data/TM_WORLD_BORDERS-0.3/TM_WORLD_BORDERS-0.3.shp","TM_WORLD_BORDERS-0.3","ogr")
+iface.mapCanvas().setExtent(QgsRectangle(-125,31,-113,38))
+

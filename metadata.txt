@@ -1,0 +1,8 @@
+[general]
+name=Test Plugin
+email=test@example.com
+author=Breno Dalolmo
+description=Simple test plugin.
+about=A very simple test plugin.
+version=0.1
+qgisMinimumVersion=2.0
